@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+h1 {
+  padding: 50px;
+  line-height: 2;
+  color: #66BFBF;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #40514E;
+}
+
+hr {
+  border: none;
+  width: 6%;
+  border-top: 7px dotted;
+  color: #EAF6F6;
+  margin: 100px auto;
+}
+
+/*******************************CLASSES***************************/
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  bottom: 3.9rem;
+  margin: 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 100px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 100px;
+  bottom: 300px;
+}
+
+.job {
+  text-decoration: underline;
+}
+
+.middle-container {
+  line-height: 2;
+}
+
+.skill-show {
+  margin: 50px auto;
+  text-align: left;
+  width: 50%;
+  line-height: 2;
+}
+
+.computer {
+  border-radius: 100%;
+  width: 30%;
+  float: left;
+  padding-right: 15px;
+}
+
+.chillies {
+  border-radius: 20%;
+  height: 125px;
+  width: 30%;
+  float: right;
+  padding-left: 10px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.footer-link {
+  padding: 20px;
+  color: #11999E;
+  text-decoration: none;
+}
+
+.trade-mark {
+  padding-top: 10px;
+  color: #EAF6F6;
+}
