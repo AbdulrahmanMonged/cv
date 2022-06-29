@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-  padding: 50px;
+  padding: 3.125rem;
   line-height: 2;
   color: #66BFBF;
   font-family: "Sacramento", cursive;
@@ -24,6 +24,7 @@ h3 {
 }
 
 p {
+  font-size: 0.625rem;
   color: #40514E;
 }
 
@@ -32,7 +33,7 @@ hr {
   width: 6%;
   border-top: 7px dotted;
   color: #EAF6F6;
-  margin: 100px auto;
+  margin: 6.25rem auto;
 }
 
 /*******************************CLASSES***************************/
@@ -45,14 +46,14 @@ hr {
 
 .top-cloud {
   position: absolute;
-  right: 100px;
-  top: 50px;
+  right: 6.25rem;
+  top: 3.125rem;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 100px;
-  bottom: 300px;
+  left: 6.25rem;
+  bottom: 18.75rem;
 }
 
 .job {
@@ -64,7 +65,7 @@ hr {
 }
 
 .skill-show {
-  margin: 50px auto;
+  margin: 3.125rem auto;
   text-align: left;
   width: 50%;
   line-height: 2;
@@ -79,7 +80,7 @@ hr {
 
 .chillies {
   border-radius: 20%;
-  height: 125px;
+  height: 7.8125rem;
   width: 30%;
   float: right;
   padding-left: 10px;
@@ -125,6 +126,7 @@ hr {
 }
 
 .trade-mark {
-  padding-top: 10px;
+
+  padding-top: 0.625rem;
   color: #EAF6F6;
 }
